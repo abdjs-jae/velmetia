@@ -37,6 +37,9 @@ public class PageSlidesHandler {
         }
     }
 
+    /*
+        Handles the slides / fragments in the slideshow viewer.
+     */
     public static ArrayList<Fragment> getPageSlidesFragment(Page page){
 
         ArrayList<Fragment> fragments = new ArrayList<>();
