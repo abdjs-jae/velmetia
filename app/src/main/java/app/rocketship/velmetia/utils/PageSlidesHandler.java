@@ -8,11 +8,6 @@ import app.rocketship.velmetia.R;
 import app.rocketship.velmetia.slides.ABCholestryl1Fragment;
 import app.rocketship.velmetia.slides.ABCholestryl2Fragment;
 import app.rocketship.velmetia.slides.ABCholestryl3Fragment;
-import app.rocketship.velmetia.slides.ABCholestryl4Fragment;
-import app.rocketship.velmetia.slides.ABCholestryl5Fragment;
-import app.rocketship.velmetia.slides.ABCholestryl6Fragment;
-import app.rocketship.velmetia.slides.ABCholestryl7Fragment;
-import app.rocketship.velmetia.slides.ABCholestryl8Fragment;
 import app.rocketship.velmetia.slides.Velmetia1Fragment;
 import app.rocketship.velmetia.slides.Velmetia2Fragment;
 import app.rocketship.velmetia.slides.Velmetia3Fragment;
@@ -25,7 +20,6 @@ import app.rocketship.velmetia.slides.Velmetia5Fragment;
 
 public class PageSlidesHandler {
     public enum Page{
-        ABCHOLESTRYL("ab_cholestryl", R.string.ab_cholestryl),
         VELMETIA("velmetia", R.string.velmetia);
 
         private String key;
@@ -48,7 +42,9 @@ public class PageSlidesHandler {
         ArrayList<Fragment> fragments = new ArrayList<>();
 
         switch (page){
+            /*
             case ABCHOLESTRYL:
+
 
                 fragments.add(new ABCholestryl1Fragment());
                 fragments.add(new ABCholestryl2Fragment());
@@ -59,8 +55,9 @@ public class PageSlidesHandler {
                 fragments.add(new ABCholestryl7Fragment());
                 fragments.add(new ABCholestryl8Fragment());
 
-                break;
 
+                break;
+            */
             case VELMETIA:
 
                 fragments.add(new Velmetia1Fragment());

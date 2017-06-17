@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import app.rocketship.velmetia.ABCholestryl2VideoActivity;
 import app.rocketship.velmetia.R;
 
 /**

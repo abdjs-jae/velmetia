@@ -44,20 +44,13 @@
         tools:ignore="UselessParent">
 
         <ImageView
-            android:id="@+id/iv_abcholestryl"
-            app:layout_widthPercent="45%"
-            android:layout_height="wrap_content"
-            app:layout_marginRightPercent="10%"
-            android:src="@drawable/abc_menu"
-            tools:ignore="ContentDescription" />
-
-        <ImageView
             android:id="@+id/iv_velmetia"
             app:layout_widthPercent="45%"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/iv_abcholestryl"
             android:src="@drawable/velmetia_menu"
-            tools:ignore="ContentDescription,RtlHardcoded" />
+            tools:ignore="ContentDescription,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
 
     </android.support.percent.PercentRelativeLayout>
 

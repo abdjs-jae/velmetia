@@ -26,9 +26,6 @@
             android:name="app.rocketship.velmetia.MainActivity"
             android:screenOrientation="sensorLandscape" />
         <activity
-            android:name="app.rocketship.velmetia.ABCholestryl2VideoActivity"
-            android:screenOrientation="sensorLandscape" />
-        <activity
             android:name="app.rocketship.velmetia.utils.SliderActivity"
             android:label="Slider"
             android:screenOrientation="sensorLandscape" />

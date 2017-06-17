@@ -63,6 +63,7 @@ public class SliderActivity extends AppCompatActivity {
 
     private void setFooter(PageSlidesHandler.Page page){
         switch(page){
+            /*
             case ABCHOLESTRYL: {
                 // red orange
                 TextView tvABC = new TextView(getBaseContext());
@@ -72,6 +73,7 @@ public class SliderActivity extends AppCompatActivity {
                 logoContainer.addView(tvABC);
                 prlSlider.setBackgroundColor(Color.parseColor("#f24d10")); break;
             }
+            */
             case VELMETIA:{
                 // light blue
                 ImageView ivVelmetia = new ImageView(getBaseContext());
@@ -89,10 +91,12 @@ public class SliderActivity extends AppCompatActivity {
 
     private void setFooterColor(PageSlidesHandler.Page page){
         switch(page){
+            /*
             case ABCHOLESTRYL: {
                 // red orange
                 prlSlider.setBackgroundColor(Color.parseColor("#f24d10")); break;
             }
+            */
             case VELMETIA:{
                 // light blue
                 prlSlider.setBackgroundColor(Color.parseColor("#2db5ea")); break;
