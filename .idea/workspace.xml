@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93418e99-8cec-4e56-a535-58fcf180c62d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia2Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia2Fragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider.xml" />
     </list>
     <ignored path="Velmetia.iws" />
@@ -32,47 +35,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PageSlidesHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PageSlidesHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+            <state relative-caret-position="449">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SliderActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_slider.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_slider.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Velmetia8Fragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia8Fragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -3621,9 +3591,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia6Fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia7Fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia8Fragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_slider.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia2Fragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" />
       </list>
     </option>
   </component>
@@ -4458,41 +4429,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_slider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia8Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="524">
           <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia2Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+        <state relative-caret-position="449">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_slider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
   </component>

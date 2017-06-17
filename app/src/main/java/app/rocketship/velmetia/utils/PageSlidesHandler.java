@@ -35,29 +35,14 @@ public class PageSlidesHandler {
     }
 
     /*
-        Handles the slides / fragments in the slideshow viewer.
+        This function is where the slides are being placed.
+        It handles the slides / fragments in the slideshow viewer.
      */
     public static ArrayList<Fragment> getPageSlidesFragment(Page page){
 
         ArrayList<Fragment> fragments = new ArrayList<>();
 
         switch (page){
-            /*
-            case ABCHOLESTRYL:
-
-
-                fragments.add(new Velmetia6Fragment());
-                fragments.add(new Velmetia7Fragment());
-                fragments.add(new Velmetia8Fragment());
-                fragments.add(new ABCholestryl4Fragment());
-                fragments.add(new ABCholestryl5Fragment());
-                fragments.add(new ABCholestryl6Fragment());
-                fragments.add(new ABCholestryl7Fragment());
-                fragments.add(new ABCholestryl8Fragment());
-
-
-                break;
-            */
             case VELMETIA:
 
                 // NOTE:

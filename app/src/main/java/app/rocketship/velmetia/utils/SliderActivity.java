@@ -33,18 +33,17 @@ public class SliderActivity extends AppCompatActivity {
 
         sliderViewPager = (ViewPager) findViewById(R.id.sliderViewPager);
         tabLayout = (TabLayout) findViewById(R.id.sliderdotlayout);
-        prlSlider = (PercentRelativeLayout) findViewById(R.id.prl_slider);
         logoContainer = (LinearLayout) findViewById(R.id.linlay_logocontainer);
 
         DataHandler.setNetworkConnection();
-
-        setFooter(MainActivity.selectedPage);
 
         pagerAdapter = new SliderFragmentPagerAdapter(getSupportFragmentManager(), MainActivity.selectedPage);
         sliderViewPager.setAdapter(pagerAdapter);
         sliderViewPager.setOffscreenPageLimit(2);
         tabLayout.setupWithViewPager(sliderViewPager, true);
     }
+
+    // Launches the slideshow itself.
 
     private void switchSliders(PageSlidesHandler.Page page){
 
@@ -99,11 +98,12 @@ public class SliderActivity extends AppCompatActivity {
                 // red orange
                 prlSlider.setBackgroundColor(Color.parseColor("#f24d10")); break;
             }
-            */
+
             case VELMETIA:{
                 // light blue
                 prlSlider.setBackgroundColor(Color.parseColor("#2db5ea")); break;
             }
+            */
         }
     }
 

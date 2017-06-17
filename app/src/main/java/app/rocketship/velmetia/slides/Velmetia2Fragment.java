@@ -22,6 +22,18 @@ public class Velmetia2Fragment extends Fragment {
     GifImageView velmetia2;
     GifDrawable gif_velmetia2;
 
+    // Here are the boolean functions to start you with the functionality.
+    boolean velmetia3Visited = false;
+    boolean velmetia4Visited = false;
+    boolean velmetia5Visited = false;
+
+    /*
+        Here, we need to create 3 views for the onClickListener linking to come in here.
+        NOTE!
+        At this point, slide 2 cannot go to slide 4 and 5 directly without going to slide 3.
+        Same goes for the others, they need to pass all the slides before them.
+     */
+
     public Velmetia2Fragment() {
         // Required empty public constructor
     }
