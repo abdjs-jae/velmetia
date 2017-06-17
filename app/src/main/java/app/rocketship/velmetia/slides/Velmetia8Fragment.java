@@ -16,30 +16,30 @@ import pl.droidsonroids.gif.GifImageView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ABCholestryl1Fragment extends Fragment {
+public class Velmetia8Fragment extends Fragment {
 
-    GifImageView abc1;
-    GifDrawable gif_abc1;
+    GifImageView velmetia8;
+    GifDrawable gif_velmetia8;
 
-    public ABCholestryl1Fragment(){
+    public Velmetia8Fragment(){
         // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_velmetia8, container, false);
 
-        View v = inflater.inflate(R.layout.fragment_abcholestryl1, container, false);
-
-        abc1 = (GifImageView) v.findViewById(R.id.gif_abc1);
+        velmetia8 = (GifImageView) v.findViewById(R.id.gif_velmetia8);
         try {
-            // If it is not the frist fragment, stop the GIF to save memory
-            gif_abc1 = new GifDrawable(getResources(), R.drawable.abcholestryl_1);
-            gif_abc1.setSpeed(8.0f);
+            // If it is not the first fragment, stop the GIF to save memory
+            gif_velmetia8 = new GifDrawable(getResources(), R.drawable.velmetia_8);
+            gif_velmetia8.stop();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        abc1.setImageDrawable(gif_abc1);
+        velmetia8.setImageDrawable(gif_velmetia8);
 
         // Inflate the layout for this fragment
         return v;
@@ -48,14 +48,16 @@ public class ABCholestryl1Fragment extends Fragment {
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        if(gif_abc1 != null) {
+        if(gif_velmetia8 != null) {
             if (isVisibleToUser) {
-                gif_abc1.start();
+                gif_velmetia8.start();
+                gif_velmetia8.setSpeed(8.0f);
                 Log.d(this.getClass().toString(), "GIF start");
             } else {
-                gif_abc1.stop();
+                gif_velmetia8.stop();
                 Log.d(this.getClass().toString(), "GIF stop");
             }
         }
     }
+
 }

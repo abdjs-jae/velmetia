@@ -1,11 +1,13 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="app.rocketship.velmetia.slides.ABCholestryl3Fragment">
+    android:background="@drawable/blue_bg"
+    tools:context="app.rocketship.velmetia.slides.Velmetia7Fragment">
 
     <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gif_abc3"
+        android:id="@+id/gif_velmetia7"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

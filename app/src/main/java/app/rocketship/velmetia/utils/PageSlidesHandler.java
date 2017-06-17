@@ -5,14 +5,11 @@ import android.support.v4.app.Fragment;
 import java.util.ArrayList;
 
 import app.rocketship.velmetia.R;
-import app.rocketship.velmetia.slides.ABCholestryl1Fragment;
-import app.rocketship.velmetia.slides.ABCholestryl2Fragment;
-import app.rocketship.velmetia.slides.ABCholestryl3Fragment;
 import app.rocketship.velmetia.slides.Velmetia1Fragment;
 import app.rocketship.velmetia.slides.Velmetia2Fragment;
-import app.rocketship.velmetia.slides.Velmetia3Fragment;
-import app.rocketship.velmetia.slides.Velmetia4Fragment;
-import app.rocketship.velmetia.slides.Velmetia5Fragment;
+import app.rocketship.velmetia.slides.Velmetia6Fragment;
+import app.rocketship.velmetia.slides.Velmetia7Fragment;
+import app.rocketship.velmetia.slides.Velmetia8Fragment;
 
 /**
  * Created by Jason on 09/03/2017.
@@ -49,9 +46,9 @@ public class PageSlidesHandler {
             case ABCHOLESTRYL:
 
 
-                fragments.add(new ABCholestryl1Fragment());
-                fragments.add(new ABCholestryl2Fragment());
-                fragments.add(new ABCholestryl3Fragment());
+                fragments.add(new Velmetia6Fragment());
+                fragments.add(new Velmetia7Fragment());
+                fragments.add(new Velmetia8Fragment());
                 fragments.add(new ABCholestryl4Fragment());
                 fragments.add(new ABCholestryl5Fragment());
                 fragments.add(new ABCholestryl6Fragment());
@@ -63,11 +60,14 @@ public class PageSlidesHandler {
             */
             case VELMETIA:
 
+                // NOTE:
+                // Velmetia 3,4,5 are subpages for Velmetia2Fragment,
+                // thus they cannot be a part of the whole slideshow.
                 fragments.add(new Velmetia1Fragment());
                 fragments.add(new Velmetia2Fragment());
-                fragments.add(new Velmetia3Fragment());
-                fragments.add(new Velmetia4Fragment());
-                fragments.add(new Velmetia5Fragment());
+                fragments.add(new Velmetia6Fragment());
+                fragments.add(new Velmetia7Fragment());
+                fragments.add(new Velmetia8Fragment());
 
                 break;
         }
