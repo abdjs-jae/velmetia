@@ -76,6 +76,7 @@ public class SliderActivity extends AppCompatActivity {
             */
             case VELMETIA:{
                 // light blue
+                /*
                 ImageView ivVelmetia = new ImageView(getBaseContext());
                 ivVelmetia.setImageResource(R.drawable.velmetia_footer);
                 ivVelmetia.setPadding(3, 5, 5, 3);
@@ -84,7 +85,9 @@ public class SliderActivity extends AppCompatActivity {
                 ivXelevia.setPadding(3, 5, 5, 3);
                 logoContainer.addView(ivVelmetia);
                 logoContainer.addView(ivXelevia);
-                prlSlider.setBackgroundColor(Color.parseColor("#2db5ea")); break;
+                */
+                //prlSlider.setBackgroundColor(Color.parseColor("#2db5ea"));
+                break;
             }
         }
     }

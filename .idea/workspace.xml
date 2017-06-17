@@ -7,22 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93418e99-8cec-4e56-a535-58fcf180c62d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/ABCholestryl2Fragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/abcholestryl_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/abcholestryl_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/abcholestryl_3.gif" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/ABCholestryl1Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia6Fragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/ABCholestryl3Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia8Fragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_abcholestryl1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_velmetia6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_abcholestryl2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_velmetia7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_abcholestryl3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_velmetia8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_1.gif" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_1.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_2.gif" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_2.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_3.gif" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_3.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_4.gif" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_4.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_5.gif" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/velmetia_5.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" />
     </list>
     <ignored path="Velmetia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PageSlidesHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PageSlidesHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="960">
@@ -55,6 +40,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SliderActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="863">
+              <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -3607,7 +3602,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_velmetia6.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_velmetia7.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_velmetia8.xml" />
@@ -3615,6 +3609,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia7Fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/slides/Velmetia8Fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/PageSlidesHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java" />
       </list>
     </option>
   </component>
@@ -4380,14 +4375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderFragmentPagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -4472,6 +4459,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/rocketship/velmetia/utils/SliderActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
