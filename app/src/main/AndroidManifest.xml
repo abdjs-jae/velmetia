@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.rocketship.velmetia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <activity
+            android:name="app.rocketship.velmetia.SplashActivity"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.rocketship.velmetia.MainActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="app.rocketship.velmetia.ABCholestryl2VideoActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="app.rocketship.velmetia.utils.SliderActivity"
+            android:label="Slider"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="app.rocketship.velmetia.RegisterActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="app.rocketship.natrapharmutil.ProfileActivity"
+            android:screenOrientation="sensorLandscape" />
+    </application>
+
+</manifest>

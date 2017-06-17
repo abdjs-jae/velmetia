@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Velmetia</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
+    <string name="et_register">Register</string>
+    <string name="et_email">Email</string>
+    <string name="et_name">Name</string>
+    <string name="et_contact">Contact</string>
+    <string name="et_department">Department</string>
+
+    <string name="profile_user_name">User Name</string>
+    <string name="profile_department_name">Department Name</string>
+
+    <string name="quality">Quality products.</string>
+    <string name="sincere">Sincere service.</string>
+    <string name="reliable">Reliable partnership.</string>
+</resources>

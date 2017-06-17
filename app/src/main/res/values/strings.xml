@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Velmetia</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ab_cholestryl">AB Cholestryl</string>
+    <string name="velmetia">Velmetia</string>
+    <string name="button_playvideo">View Video on Mechanism of Action</string>
+</resources>
