@@ -50,7 +50,7 @@ public class Velmetia5Fragment extends Fragment {
         if(gif_velmetia5 != null) {
             if (isVisibleToUser) {
                 gif_velmetia5.start();
-                gif_velmetia5.setSpeed(8.0f);
+                gif_velmetia5.setSpeed(1.0f);
                 Log.d(this.getClass().toString(), "GIF start");
             } else {
                 gif_velmetia5.stop();

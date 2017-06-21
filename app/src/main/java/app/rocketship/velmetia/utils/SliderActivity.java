@@ -33,7 +33,7 @@ public class SliderActivity extends AppCompatActivity {
 
         sliderViewPager = (ViewPager) findViewById(R.id.sliderViewPager);
         tabLayout = (TabLayout) findViewById(R.id.sliderdotlayout);
-        logoContainer = (LinearLayout) findViewById(R.id.linlay_logocontainer);
+        // logoContainer = (LinearLayout) findViewById(R.id.linlay_logocontainer);
 
         DataHandler.setNetworkConnection();
 

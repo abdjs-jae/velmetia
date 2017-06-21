@@ -25,13 +25,13 @@
             android:src="@drawable/ic_action_back"
             tools:ignore="ContentDescription,RtlHardcoded" />
 
-        <ImageView
-            android:id="@+id/iv_profile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:src="@drawable/ic_action_profile"
-            tools:ignore="ContentDescription,RtlHardcoded" />
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_profile"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:src="@drawable/ic_action_profile"-->
+            <!--tools:ignore="ContentDescription,RtlHardcoded" />-->
     </android.support.percent.PercentRelativeLayout>
 
     <android.support.percent.PercentRelativeLayout

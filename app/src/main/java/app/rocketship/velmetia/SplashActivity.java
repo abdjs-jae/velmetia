@@ -23,7 +23,8 @@ public class SplashActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }finally{
                     // Go to LandingActivity
-                    ActivityHandler.afterSplashActivity(a, RegisterActivity.class, MainActivity.class);
+                   // ActivityHandler.afterSplashActivity(a, RegisterActivity.class, MainActivity.class);
+                    ActivityHandler.goToMenuOffline(a, MainActivity.class);
                 }
             }
         };

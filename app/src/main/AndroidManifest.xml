@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
         <activity
-            android:name="app.rocketship.velmetia.SplashActivity"
+            android:name=".SplashActivity"
             android:screenOrientation="sensorLandscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,18 +23,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="app.rocketship.velmetia.MainActivity"
+            android:name=".MainActivity"
             android:screenOrientation="sensorLandscape" />
         <activity
-            android:name="app.rocketship.velmetia.utils.SliderActivity"
+            android:name=".utils.SliderActivity"
             android:label="Slider"
             android:screenOrientation="sensorLandscape" />
         <activity
-            android:name="app.rocketship.velmetia.RegisterActivity"
+            android:name=".RegisterActivity"
             android:screenOrientation="sensorLandscape" />
         <activity
             android:name="app.rocketship.natrapharmutil.ProfileActivity"
             android:screenOrientation="sensorLandscape" />
+        <activity android:name=".Velmetia3Activity" />
+        <activity android:name=".Velmetia4Activity" />
+        <activity android:name=".Velmetia5Activity"></activity>
     </application>
 
 </manifest>

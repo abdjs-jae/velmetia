@@ -38,6 +38,15 @@ public class ActivityHandler {
         ((Activity) currentContext).overridePendingTransition(0, R.anim.screen_splash_fade_out);
     }
 
+    public static void goToMenuOffline(Context currentContext, final Class<?> localMenuClass){
+        setMenuClass(localMenuClass);
+        Intent i = new Intent(currentContext, menuClass);
+        currentContext.startActivity(i);
+
+        ((Activity) currentContext).finish();
+        ((Activity) currentContext).overridePendingTransition(0, R.anim.screen_splash_fade_out);
+    }
+
     public static void goHome(Context context){
 
         ((Activity) context).finish();
