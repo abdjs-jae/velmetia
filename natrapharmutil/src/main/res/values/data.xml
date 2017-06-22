@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="request_url">http://twogie.com/natrapharm/index.php</string>
+    <string name="request_url">http://www.funbuy.asia/natrapharm/index.php</string>
     <string name="db_app_name">pedia</string>
 
 </resources>

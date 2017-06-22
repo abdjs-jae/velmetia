@@ -37,7 +37,6 @@
             android:screenOrientation="sensorLandscape" />
         <activity android:name=".Velmetia3Activity" />
         <activity android:name=".Velmetia4Activity" />
-        <activity android:name=".Velmetia5Activity"></activity>
+        <activity android:name=".Velmetia5Activity" />
     </application>
-
 </manifest>

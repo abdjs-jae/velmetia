@@ -36,17 +36,17 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-//        ivProfile = (ImageView) findViewById(R.id.iv_profile);
-//        ivProfile.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View v) {
-//
-//                ActivityHandler.goToProfile(MainActivity.this);
-//
-//            }
-//
-//        });
+        ivProfile = (ImageView) findViewById(R.id.iv_profile);
+        ivProfile.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                ActivityHandler.goToProfile(MainActivity.this);
+
+            }
+
+        });
 
         ivVelmetia = (ImageView) findViewById(R.id.iv_velmetia);
 
