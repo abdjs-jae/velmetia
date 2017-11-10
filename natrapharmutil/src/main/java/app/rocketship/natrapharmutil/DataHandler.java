@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.UUID;
 
 import app.rocketship.natrapharmutil.sqlite.SQLHelper;
 import app.rocketship.natrapharmutil.sqlite.SQLiteSingleton;
@@ -145,6 +146,7 @@ public class DataHandler {
     }
 
     public static void isDeviceRegistered(final VolleyCallback deviceExists, final VolleyCallback notDeviceExists){
+
         StringRequest request = new StringRequest(
                 Request.Method.POST,
                 currentContext.getString(R.string.request_url),
@@ -181,7 +183,7 @@ public class DataHandler {
                             Log.d("Test", "Timeout Error");
                             Alert.connectionTimeout();
                         }else{
-                            Log.d("Test", "errrooorrrr");
+                            Log.d("Test", "Error at isDeviceRegistered");
                             error.printStackTrace();
                         }
                     }
@@ -192,11 +194,14 @@ public class DataHandler {
                 Map<String, String> param = new HashMap<>();
 
                 param.put("action", "is_device_exists");
-                param.put("fingerprint",
-                        ((WifiManager) currentContext.getSystemService(Context.WIFI_SERVICE))
+                Log.d("WiFi", ((WifiManager) currentContext.getApplicationContext()
+                                    .getSystemService(Context.WIFI_SERVICE)).isWifiEnabled()+"");
+                param.put("fingerprint", UUID.randomUUID().toString());
+                /*param.put("fingerprint",
+                        ((WifiManager) currentContext.getApplicationContext().getSystemService(Context.WIFI_SERVICE))
                                 .getConnectionInfo()
                                 .getMacAddress()
-                );
+                );*/
 
                 return param;
             }
@@ -242,7 +247,7 @@ public class DataHandler {
                         if(error instanceof NoConnectionError){
                             Alert.connectionNeededRegistration();
                         }else{
-                            Log.d("Test", "errrooorrrr");
+                            Log.d("Test", "Error at registerUser");
                             error.printStackTrace();
                         }
                     }
